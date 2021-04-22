@@ -19,7 +19,7 @@ public class SendEmailController {
 		SimpleMailMessage message=new SimpleMailMessage();
 		message.setTo("sinthio2@gmailcom");
 		message.setSubject("SpringBoot Message");
-		message.setText("je suis un développeur web et mobile");
+		message.setText("je suis un développeur web et mobile a Bailobaya");
 		javaMailSender.send(message);
 		return "message send successfully";
 	}
